@@ -1,5 +1,7 @@
 ## Dockerfile security checker
 
+TODO: Convert this to a GHUB app vs a PAT. More secure and higher API limit.
+
 This is a simple little script that will scrape a repo for it's Dockerfile at a specific location. The Dockerfile can then be inspected for compliancy things like elevated run users. 
 
 This can be built into an image with the idea that it could be run on a schedule in a Kubernetes cluster as a cron. 
