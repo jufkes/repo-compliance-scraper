@@ -11,8 +11,8 @@ The script needs the following environment variables set although some have defa
 
 | VARIABLE         | DESCRIPTION                                                                      | DEFAULT                          | 
 |------------------|----------------------------------------------------------------------------------|----------------------------------|
-| GH_REPOS         | Comma separated list of repos to gather data. NOTE -- tight list...no whitespace | 'azure-templates'                |
-| GH_REPO_OWNER    | The GitHub org that owns the repo.                                               | CenturyLinkFederal               |
+| GH_REPOS         | Comma separated list of repos to gather data. NOTE -- tight list...no whitespace | 'repo-compliance-scraper'                |
+| GH_REPO_OWNER    | The GitHub org that owns the repo.                                               | jufkes               |
 | GH_TOKEN         | GitHub token that has permissions to pull the Github api.                        | null                             |
 | GH_PAGES         | Number of pages worth of data to pull from Github.                               | 1                                |
 | GH_NUMBER_OF_PRS | Number of PR records to return on a single page (max: 100).                      | 100                              |
